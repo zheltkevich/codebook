@@ -1,19 +1,13 @@
 <template>
   <div id="app">
-    <TopBar></TopBar>
+    <ul id="main-sections">
+      <li><router-link to="/">Home</router-link> |</li>
+      <li><router-link to="/about">About</router-link> |</li>
+      <li><router-link to="/test">Test</router-link></li>
+    </ul>
+    <slot></slot>
   </div>
 </template>
-
-<script>
-import TopBar from '@/components/TopBar'
-
-export default {
-  name: 'App',
-  components: {
-    TopBar
-  }
-}
-</script>
 
 <style lang="scss">
 #app {
