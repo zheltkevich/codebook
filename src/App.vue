@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <TopBar></TopBar>
+    <Header></Header>
+    <Main></Main>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import TopBar from '@/components/TopBar'
+import Header from '@/components/Header'
+import Main from '@/components/Main'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
   components: {
-    TopBar
+    Header,
+    Main,
+    Footer
   }
 }
 </script>
