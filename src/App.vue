@@ -25,6 +25,7 @@ export default {
 #app {
   display: flex;
   flex-direction: column;
+  max-width: 100%;
   min-height: 100vh;
 }
 
