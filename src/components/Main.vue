@@ -11,10 +11,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .main {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(154, 154, 167);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: auto;
+  background-color: #3C6697;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-      <h2>Footer</h2>
+      <i class="footer__copyright">© Copyright 2021</i>
     </div>
 </template>
 
@@ -11,10 +11,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .footer{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(119, 119, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 40px;
+  background-color: #2F547E;
+
+  &__copyright {
+    font-size: 12px;
+  }
 }
 </style>
