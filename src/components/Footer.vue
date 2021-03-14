@@ -1,7 +1,7 @@
 <template>
-    <div class="footer">
+    <footer class="footer">
       <i class="footer__copyright">© Copyright 2021</i>
-    </div>
+    </footer>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style lang="scss">
-.footer{
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;

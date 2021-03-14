@@ -1,6 +1,6 @@
 <template>
-    <div class="header">
-      <div class="header__wrapper container">
+    <header class="header">
+      <div class="header__wrapper">
         <div class="header__content">
           <button class="header__burger">
             <svg class="icon-menu"
@@ -8,8 +8,7 @@
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              :class="'icon-menu--opened'">
+              xmlns="http://www.w3.org/2000/svg">
 
               <path class="icon-menu__top-element"
                 d="M1.5 6.5C0.671573 6.5 0 5.82843 0 5C0 4.17157 0.671573 3.5 1.5
@@ -52,7 +51,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </header>
 </template>
 
 <script>
@@ -76,6 +75,10 @@ export default {
 
   &__wrapper {
     height: 100%;
+    padding: 0 10px;
+    @media (min-width: 768px) {
+      padding: 0 20px;
+    }
   }
 
   &__content {
@@ -89,6 +92,8 @@ export default {
   }
 
   &__logo {
+    font-size: 24px;
+    line-height: 100%;
     text-decoration: none;
   }
 
