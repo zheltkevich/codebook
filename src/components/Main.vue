@@ -6,13 +6,13 @@
         <h1 class="main__title">Справочник веб-разработчика</h1>
         <ul>
           <li>
-            <h2 class="main__"></h2>
+            <h2 class="main__">HTML</h2>
           </li>
           <li>
-            <h2 class="main__"></h2>
+            <h2 class="main__">CSS</h2>
           </li>
           <li>
-            <h2 class="main__"></h2>
+            <h2 class="main__">JavaScript</h2>
           </li>
         </ul>
       </section>
