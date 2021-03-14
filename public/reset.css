@@ -21,6 +21,12 @@ h4,
 h5,
 h6 {
   font: inherit;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
 }
 
 a {
