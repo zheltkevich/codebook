@@ -63,9 +63,10 @@ export default {
 
 <style lang="scss">
 .header {
-  // position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
+  z-index: 10;
   flex-grow: 0;
   flex-shrink: 0;
   height: 48px;
