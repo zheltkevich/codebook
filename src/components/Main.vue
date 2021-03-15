@@ -43,6 +43,10 @@
                   </li>
                 </ul>
               </div>
+
+              <a href="" class="main-page__tech-link">
+                Посмотреть
+              </a>
             </div>
           </li>
 
@@ -130,7 +134,7 @@ export default {
   display: flex;
   flex-grow: 1;
   flex-shrink: 0;
-  max-width: 100%;
+  width: 100%;
   min-height: 100%;
   background-color: #3C6697;
 
@@ -158,7 +162,7 @@ export default {
     background-color: #5176A1;
     border-radius: 10px;
     @media (min-width: 768px) {
-      max-width: 30%;
+      max-width: 32%;
       margin-bottom: 0;
       padding: 40px;
     }
@@ -173,7 +177,6 @@ export default {
   }
 
   &__tech-content-item {
-
   }
 
   &__icon {
